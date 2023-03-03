@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex. 01 - chat html - sw front-end</title>
+    <!-- A TAG ABAIXO SERVE PARA LINKAR UM CSS EXTERNO A UM ARQUIVO .HTML -->
+    <link rel="stylesheet" href="projeto.css" />
+  </head>
+  <body>
+    <div id="screen">
+      <header>
+        <h2>Atendimento on-line</h2>
+      </header>
+      <div class="tudo">
+        <div class="item1">
+          <div class="user"><strong>Atendente diz:</strong></div>
+          <div class="chat">Olá Sr. Arthur</div>
+        </div>
+        <div class="item1">
+          <div class="user"><strong>Atendente diz:</strong></div>
+          <div class="chat">Preciso de informações?</div>
+        </div>
+        <div class="item2">
+          <div class="user"><strong>Você diz:</strong></div>
+          <div class="chat">Olá</div>
+        </div>
+        <div class="item2">
+          <div class="user"><strong>Você diz:</strong></div>
+          <div class="chat">Como posso ajudar</div>
+        </div>
+        <div class="item1">
+          <div class="user"><strong>Atendente diz:</strong></div>
+          <div class="chat"> Qual as config do seu PC</div>
+        </div>
+        <div class="item1">
+          <div class="user"><strong>Atendente diz:</strong></div>
+          <div class="chat">Para coleta de dados </div>
+        </div>
+
+
+      </div>
+      <form id="form-chat-send" action="index.html" method="post">
+        <input type="text" id="message" name="message">
+        <button type="submit">ENVIAR</button>
+      </form>
+    </div>
+  </body>
+</html>

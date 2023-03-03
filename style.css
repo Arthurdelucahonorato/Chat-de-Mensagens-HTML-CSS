@@ -1,6 +1,8 @@
 .tudo {
     background-color:white;
     max-width: 250px;
+    border-bottom:1px solid black;
+    margin-bottom:10px;
 }
 
 
@@ -8,19 +10,22 @@
     display:flex;
     text-align:left;
     flex-direction: column;
-    margin-bottom:8px;
+    margin-bottom:12px;
+    margin-left: 5px;
 }
 .item2 {
     display:flex;
     text-align:right;
     flex-direction: column;
-    margin-bottom:8px;
+    margin-bottom:12px;
+    margin-right: 5px;
 }
 .item2 .chat{
     align-self: flex-end;
     border:1px solid black;
     padding: 4px;
     border-radius: 4px;
+    
 
 }
 
@@ -29,6 +34,7 @@
     border:1px solid black;
     padding: 4px;
     border-radius: 4px;
+    
 }
 
 #screen {
@@ -41,4 +47,6 @@ header {
     border-bottom:1px solid black;
     text-align: center;
     margin-bottom:8px;
+    color:red;
 }
+ 

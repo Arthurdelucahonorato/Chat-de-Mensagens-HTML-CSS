@@ -1,0 +1,44 @@
+.tudo {
+    background-color:white;
+    max-width: 250px;
+}
+
+
+.item1 {
+    display:flex;
+    text-align:left;
+    flex-direction: column;
+    margin-bottom:8px;
+}
+.item2 {
+    display:flex;
+    text-align:right;
+    flex-direction: column;
+    margin-bottom:8px;
+}
+.item2 .chat{
+    align-self: flex-end;
+    border:1px solid black;
+    padding: 4px;
+    border-radius: 4px;
+
+}
+
+.item1 .chat{
+    align-self: flex-start;
+    border:1px solid black;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+#screen {
+    border-style:solid;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom:1px solid black;
+    text-align: center;
+    margin-bottom:8px;
+}

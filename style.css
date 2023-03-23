@@ -3,8 +3,12 @@
     max-width: 250px;
     border-bottom:1px solid black;
     margin-bottom:10px;
+    width: 50em;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 65vh;
+   
 }
-
 
 .item1 {
     display:flex;
@@ -13,6 +17,7 @@
     margin-bottom:12px;
     margin-left: 5px;
 }
+
 .item2 {
     display:flex;
     text-align:right;
@@ -20,13 +25,14 @@
     margin-bottom:12px;
     margin-right: 5px;
 }
+
 .item2 .chat{
     align-self: flex-end;
     border:1px solid black;
     padding: 4px;
     border-radius: 4px;
-    
-
+    overflow-wrap: break-word;
+    max-width: 90%;  
 }
 
 .item1 .chat{
@@ -34,7 +40,6 @@
     border:1px solid black;
     padding: 4px;
     border-radius: 4px;
-    
 }
 
 #screen {
@@ -49,4 +54,3 @@ header {
     margin-bottom:8px;
     color:red;
 }
- 
